@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Flight,camera, action</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+        <style>
+
+            html, body {
+			    height: 1100px;
+			    width:  1320px;
+                background: white;
+                color: black;
+                font-family: sans-serif;
+                margin:  0px;
+                padding: 0px;
+            }
+            /* Container holding the image and the text */
+            .container {
+                position: absolute;
+                text-align: left;
+                width: 1200px;
+            }
+            .marquee {
+                position: absolute;
+                top:    0px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+                font-size: 80px;
+                font-weight: 550;
+                color: white;
+                z-index: 1; 
+            }    
+            .film {
+                position: absolute;
+                top:      0px;
+                bottom:   0px;
+                left:     0px;
+                right:    0px;
+                color:  white;
+            }
+            .message {
+                position: absolute;
+                top:  540px;
+                bottom: 0px;
+                left:  20px;
+                right:  0px;
+                color: black;
+                font-size: 30px;
+                font-weight: 550;
+
+            }
+            .header {
+                position: absolute;
+                top:  420px;
+                bottom: 0px;
+                left:  20px;
+                right:  0px;
+                font-size: 60px;
+                font-weight: 550;
+                color: black;
+            }
+
+            .break {
+                position: absolute;
+                top:  490px;
+                bottom: 0px;
+                left:  20px;
+                right:  0px;
+                height: 5px;
+                width: 780px;
+                background: black;
+            }    
+            .camera {
+                position: absolute;
+                top:  730px;
+                bottom: 0px;
+                left:  30px;
+                right:  0px;
+                height: 200px;
+                width:  300px;
+            }
+            .studio {
+                position: absolute;
+                top:  730px;
+                bottom: 0px;
+                left: 500px;
+                right:  0px;
+                height: 200px;
+                width:  300px;
+
+            }
+            .drone {
+                position: absolute;
+                top:  730px;
+                bottom: 0px;
+                left:1000px;
+                right:  0px;
+                height: 200px;
+                width:  300px;
+
+            }
+
+            .border {
+                position: absolute;
+                top: 1020px;
+                bottom: 0px;
+                left:  25px;
+                right:  0px;
+                height: 5px;
+                width: 1300px;
+                background: black;
+            }
+            .icon {
+                position: absolute;
+                top:    20px;
+                left: 1260px;
+                font-size: 70px;
+                font-weight: 550;
+                display: block;
+                z-index: 2;
+            }        
+
+            .footer {
+                position: absolute;
+                top:  1050px;
+                bottom:  0px;
+                left:   20px;
+                right:   0px;
+                font-size:  25px;
+                font-weight: 550;
+                font-family: serif;
+                height: 200px;
+                width: 1300px;
+                color: white;
+                background: black;
+                margin:  10px;
+                padding: 10px;
+            }
+            .line {
+                position: absolute;
+                top:   50px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+                background: white;
+                height: 3px;
+                width: 1300px;
+            }
+            .list {
+                position: absolute;
+                top:   60px;
+                bottom: 0px;
+                left: -20px;
+                right:  0px;
+                font-size: 15px;
+                font-weight: 500;
+                
+            }
+            .icon-bar {
+				position: absolute;
+				top:    15px;
+				bottom:  0px;
+				left:  1100px;
+				right:   0px;
+                font-size: 30px;
+
+			} 
+            .icon-bar a {
+                color: white;
+            }
+            .company {
+                position: absolute;
+                top:  190px;
+                bottom: 0px;
+                left: 450px;
+                right:  0px;
+                font-size: 20px;
+                font-weight: 550;
+                color: white;
+            }
+            .jobs {
+                position: absolute;
+                top:   60px;
+                bottom: 0px;
+                left: 1100px;
+                right:  0px;
+                font-size: 15px;
+                font-weight: 500;
+            }
+            .credit {
+				position: absolute;
+				top:    80px;
+				bottom:  0px;
+				left:  460px;
+				right:   0px;
+                font-size: 50px;
+
+			} 
+            .credit a {
+                color: white;
+            }
+            .website {
+                position: absolute;
+                top:   190px;
+                bottom:  0px;
+                left: 1050px;
+                right:   0px;
+                font-size: 20px;
+            }   
+
+
+
+
+
+
+
+
+
+
+
+        </style>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+            <body>
+                <div class="container">
+                <div class="marquee">Flight, Camera, Action</div>
+                <div class="film">
+                <img src="Images/camerashot.jpg" width="1350" height="400">
+                <div class="header">Video Production</div>
+                <div class="break"></div>
+                <div class="message">Flight, Camera, Action offers video photography, drone video and video editing services. Our all-star team of writers, 
+                directors, producers, and cinematographers handles projects of nearly every scale and genre, from single-camera studio
+                interviews to multi-camera, multi-crew commercial shoots, in multiple locations around the world.</div> 
+                <div class="camera">
+                <img src="Images/cameraandfilm.jpg" width="300" height="200">
+                </div>
+                <div class="studio">
+                <img src="Images/studio.jpg" width="300" height="200">
+                </div>
+                <div class="drone">
+                <img src="Images/mavic.jpg" width="300" height="200">
+                </div>
+            <div class="border"></div>
+
+            <div class="icon">
+					<a href="flightportfolio.php"title="Website name"><i class="fa fa-bars" style="color: white;"></i></a>
+                </div>
+            <footer>
+            <div class="footer">
+                <footer>Flight, Camera, Action</footer> 
+                <div class="line"></div>
+                    <div class="list">
+                    <ul style="list-style-type:none;">
+                        <li>Spring Valley</li>
+                        <li>Green Valley</li>
+                        <li>Summerlin</li>
+                        <li>Henderson</li>
+                        <li>Las Vegas</li>
+                        <li>Paradise</li>
+                    </ul>
+                    </div>
+                    <div class="icon-bar">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+					    <a href="#"><i class="fa fa-instagram"></i></a>
+					    <a href="#"><i class="fa fa-apple"></i></a>
+					    <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-spotify"></i></a>
+                    </div>
+                    <div class="jobs">
+                    <ul style="list-style-type:none;">
+                        <li>Music Videos</li>
+                        <li>Real Estate</li>
+                        <li>Weddings</li>
+                        <li>Editing</li>
+                        <li>Videos</li>
+                    </ul>
+                    </div>
+                    <div class="credit">
+                        <a href="#"><i class="fa fa-cc-amex"></i></a>
+                        <a href="#"><i class="fa fa-cc-discover"></i></a>
+                        <a href="#"><i class="fa fa-cc-mastercard"></i></a>
+                        <a href="#"><i class="fa fa-cc-paypal"></i></a>
+                        <a href="#"><i class="fa fa-cc-visa"></i></a>
+                    </div>
+                    <div class="website">www.flightcameraaction.com</div>   
+                    <div class="company">&copy; Copyright 2019, Flight, Camera, Action</div>
+
+
+
+
+
+
+
+
+
+
+
+            </body>
+
+</html>            
